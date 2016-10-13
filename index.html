@@ -1,12 +1,23 @@
 <html>
   <head>
     <title>Advanced Runner</title>
+    <script type="application/javascript" src="vendor/keymaster.js"></script>
+    <script type="application/javascript" src="lib/bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/game.css">
   </head>
 
   <body>
-    <canvas></canvas>
+    <div class='canvas-container'>
+      <div class='info'>
+        <div>High Scores:</div>
+      </div>
+      <div class='game'>
+        <canvas class='canvas'></canvas>
+        <div>Space to Jump</div>
+        <div>Control to Pause/Resume</div>
+        <input type="button" value="Restart!" onClick="window.location.reload()">
+      </div>
+    </div>
 
-    <script type="application/javascript" src="vendor/keymaster.js"></script>
-    <script type="application/javascript" src="lib/bundle.js"></script>
   </body>
 </html>
