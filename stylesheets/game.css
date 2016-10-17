@@ -42,7 +42,7 @@ input:-ms-input-placeholder {
 }
 
 input[type=text] {
-    color: red;
+    color: black;
 }
 
 .canvas-container {
