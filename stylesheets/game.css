@@ -23,18 +23,22 @@ button:focus {
 
 input::-webkit-input-placeholder {
   color: #c6c6c6 !important;
+  font-size: 14px;
 }
 
 input:-moz-placeholder { /* Firefox 18- */
   color: #c6c6c6 !important;
+  font-size: 14px;
 }
 
 input::-moz-placeholder {  /* Firefox 19+ */
   color: #c6c6c6 !important;
+  font-size: 14px;
 }
 
 input:-ms-input-placeholder {
   color: #c6c6c6 !important;
+  font-size: 14px;
 }
 
 input[type=text] {
