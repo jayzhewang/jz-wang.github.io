@@ -26,15 +26,15 @@ input::-webkit-input-placeholder {
 }
 
 input:-moz-placeholder { /* Firefox 18- */
-  color: #c6c6c6 !important;  
+  color: #c6c6c6 !important;
 }
 
 input::-moz-placeholder {  /* Firefox 19+ */
-  color: #c6c6c6 !important;  
+  color: #c6c6c6 !important;
 }
 
 input:-ms-input-placeholder {
-  color: #c6c6c6 !important;  
+  color: #c6c6c6 !important;
 }
 
 input[type=text] {
@@ -146,6 +146,10 @@ input[type=text] {
   border-left: 2px solid #9a9a9a;
   border-bottom: 2px solid #d3d3d3;
   border-right: 2px solid #d3d3d3;
+}
+
+#submit:hover{
+  cursor: pointer;
 }
 
 #default-player {
