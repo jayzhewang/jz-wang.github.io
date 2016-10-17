@@ -127,6 +127,7 @@ input[type=text] {
   border-radius: 2px;
   text-align: left;
   width: 120px;
+  height: 20px;
   border-top: 2px solid #9a9a9a;
   border-left: 2px solid #9a9a9a;
   border-bottom: 2px solid #eeeeee;
@@ -134,6 +135,7 @@ input[type=text] {
 }
 
 #submit {
+  height: 20px;
   background: red;
   border-radius: 2px;
   color: #fff;
